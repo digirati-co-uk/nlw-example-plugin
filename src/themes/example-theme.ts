@@ -12,7 +12,8 @@ const theme: MadocTheme = {
       globalBackground: '#D8DCDC',
     },
     siteContainer: {
-      background: '#D8DCDC',
+      background: '#fff',
+      containerBackground: '#D8DCDC'
     },
     accent: {
       primary: '#D0392A',
