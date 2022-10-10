@@ -8,7 +8,7 @@ const theme: MadocTheme = {
   siteContainer: 'dark',
   custom: {
     header: {
-      headerBackground: 'blue',
+      headerBackground: '#bfc9c9',
       globalBackground: '#D8DCDC',
     },
     siteContainer: {
