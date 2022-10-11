@@ -19,7 +19,7 @@ const theme: MadocTheme = {
       primary: '#D0392A',
     },
     global: {
-      maxWidth: '1200px',
+      maxWidth: '1400px',
     },
   },
 };
