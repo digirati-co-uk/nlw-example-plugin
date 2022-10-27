@@ -1,5 +1,6 @@
 import '@madoc.io/types';
 import { exampleTheme } from './themes/example-theme';
+// import {FullWidthHeader} from "./blocks/full-width-header";
 
 export function hookRoutes() {
   return [];
@@ -13,6 +14,7 @@ export function hookComponents() {
 
 export function hookBlocks() {
   return {
+    // FullWidthHeader
   };
 }
 

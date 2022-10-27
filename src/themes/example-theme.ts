@@ -1,4 +1,4 @@
-import { MadocTheme } from "@madoc.io/types/dist/frontend/themes/definitions/types";
+import {MadocTheme} from "@madoc.io/types/dist/frontend/themes/definitions/types";
 
 const theme: MadocTheme = {
   header: 'default',
@@ -8,8 +8,8 @@ const theme: MadocTheme = {
   siteContainer: 'dark',
   custom: {
     header: {
-      headerBackground: '#bfc9c9',
-      globalBackground: '#D8DCDC',
+      headerBackground: '#fff',
+      globalBackground: '#fff',
     },
     siteContainer: {
       background: '#fff',
@@ -19,7 +19,7 @@ const theme: MadocTheme = {
       primary: '#D0392A',
     },
     global: {
-      maxWidth: '1400px',
+      maxWidth: '1380px',
     },
   },
 };
@@ -31,4 +31,24 @@ export const exampleTheme = {
   description: 'This is my theme loaded from a plugin',
   thumbnail: 'https://user-images.githubusercontent.com/8266711/118507448-25750b80-b726-11eb-9f87-d96f43c0a894.png',
   theme,
+  extra: {
+    classNames: {
+      main: 'main',
+    },
+    options: {
+      userBarAbove: true,
+    },
+    remote: {
+      languages: {
+        en: {
+          header: 'https://brandedframe.library.wales/header.php?site=crowd',
+          footer: 'https://brandedframe.library.wales/footer.php?site=crowd',
+        },
+        cy: {
+          header: 'https://brandedframe.library.wales/header.php?site=torf',
+          footer: 'https://brandedframe.library.wales/footer.php?site=torf',
+        },
+      },
+    },
+  },
 };
