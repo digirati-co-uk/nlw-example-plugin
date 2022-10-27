@@ -13,7 +13,7 @@ const theme: MadocTheme = {
     },
     siteContainer: {
       background: '#fff',
-      containerBackground: '#D8DCDC'
+      containerBackground: '#fff'
     },
     accent: {
       primary: '#D0392A',
