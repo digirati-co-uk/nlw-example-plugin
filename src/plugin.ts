@@ -1,6 +1,7 @@
 import '@madoc.io/types';
-import { exampleTheme } from './themes/example-theme';
-// import {FullWidthHeader} from "./blocks/full-width-header";
+import { nlwPluginThemeWithoutHeader } from './themes/nlw-theme-no-header';
+import { nlwPluginTheme } from './themes/nlw-theme';
+import { theChainTemplate } from './templates/01-the-chain';
 
 export function hookRoutes() {
   return [];
@@ -18,7 +19,7 @@ export function hookBlocks() {
   };
 }
 
-export const projectTemplates = [];
+export const projectTemplates = [theChainTemplate];
 
 // All themes.
-export const themes = [exampleTheme];
+export const themes = [nlwPluginTheme, nlwPluginThemeWithoutHeader];

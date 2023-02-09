@@ -24,11 +24,11 @@ const theme: MadocTheme = {
   },
 };
 
-export const exampleTheme = {
+export const nlwPluginTheme = {
   id: 'nlw-plugin-theme',
   name: 'NLW plugin theme',
-  version: '1.0.0',
-  description: 'This is my theme loaded from a plugin',
+  version: '1.0.1',
+  description: 'NLW theme with remote header and footer',
   thumbnail: 'https://user-images.githubusercontent.com/8266711/118507448-25750b80-b726-11eb-9f87-d96f43c0a894.png',
   theme,
   extra: {
