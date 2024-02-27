@@ -41,11 +41,11 @@ export const nlwPluginTheme = {
     remote: {
       languages: {
         en: {
-          header: 'https://brandedframe.library.wales/header.php?site=crowd',
+          header: 'https://brandedframe.library.wales/header.php?site=crowd&langSwitch=0&container=fluid',
           footer: 'https://brandedframe.library.wales/footer.php?site=crowd',
         },
         cy: {
-          header: 'https://brandedframe.library.wales/header.php?site=torf',
+          header: 'https://brandedframe.library.wales/header.php?site=torf&langSwitch=0&container=fluid',
           footer: 'https://brandedframe.library.wales/footer.php?site=torf',
         },
       },
